@@ -7,7 +7,7 @@ type Item struct {
 	sellIn, quality int
 }
 
-var items = []Item{
+var currentItems = []Item{
 	Item{"+5 Dexterity Vest", 10, 20},
 	Item{"Aged Brie", 2, 0},
 	Item{"Elixir of the Mongoose", 5, 7},
@@ -18,11 +18,11 @@ var items = []Item{
 
 func main() {
 	fmt.Println("OMGHAI!")
-	// fmt.Print(items)
-	GildedRose()
+	fmt.Println(currentItems)
+	currentItems = GildedRose(currentItems)
 }
 
-func GildedRose() {
+func GildedRose(items []Item) []Item {
 	for i := 0; i < len(items); i++ {
 
 		if items[i].name != "Aged Brie" && items[i].name != "Backstage passes to a TAFKAL80ETC concert" {
@@ -71,5 +71,5 @@ func GildedRose() {
 			}
 		}
 	}
-
+	return items
 }

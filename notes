@@ -1,0 +1,7 @@
+https://sourcemaking.com/refactoring/refactorings
+
+1 : execution des commandes
+2 : premiere analyse superficielle du code. Println des objects avant et apres
+3 : modification de la fonction GildedRose pour qu'elle renvoie une liste d'objets => premier golden master
+4 : implementation du premier test verifiant ce golden master
+5 : modification de la fonction GildedRose pour qu'elle prenne une liste d'objet en parametre
