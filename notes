@@ -1,7 +1,9 @@
 https://sourcemaking.com/refactoring/refactorings
 
+Phase n 1 => decouvrir les fonctionnalites du programme et augmenter la couverture des tests
 1 : execution des commandes
 2 : premiere analyse superficielle du code. Println des objects avant et apres
 3 : modification de la fonction GildedRose pour qu'elle renvoie une liste d'objets => premier golden master
 4 : implementation du premier test verifiant ce golden master
 5 : modification de la fonction GildedRose pour qu'elle prenne une liste d'objet en parametre
+6 : on ajoute un test avec d'autres parametres basee sur ce qui manque en couverture de test

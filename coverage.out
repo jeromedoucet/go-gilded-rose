@@ -1,6 +1,7 @@
 mode: set
-github.com/jeromedoucet/gildedRose/gilded-rose.go:19.13,23.2 2 1
-github.com/jeromedoucet/gildedRose/gilded-rose.go:25.19,26.34 1 1
+github.com/jeromedoucet/gildedRose/gilded-rose.go:19.13,23.2 3 0
+github.com/jeromedoucet/gildedRose/gilded-rose.go:25.38,26.34 1 1
+github.com/jeromedoucet/gildedRose/gilded-rose.go:74.2,74.14 1 1
 github.com/jeromedoucet/gildedRose/gilded-rose.go:26.34,28.99 1 1
 github.com/jeromedoucet/gildedRose/gilded-rose.go:52.3,52.52 1 1
 github.com/jeromedoucet/gildedRose/gilded-rose.go:56.3,56.26 1 1
@@ -11,8 +12,8 @@ github.com/jeromedoucet/gildedRose/gilded-rose.go:34.9,35.29 1 1
 github.com/jeromedoucet/gildedRose/gilded-rose.go:35.29,37.69 2 1
 github.com/jeromedoucet/gildedRose/gilded-rose.go:37.69,38.30 1 1
 github.com/jeromedoucet/gildedRose/gilded-rose.go:43.6,43.29 1 1
-github.com/jeromedoucet/gildedRose/gilded-rose.go:38.30,39.32 1 0
-github.com/jeromedoucet/gildedRose/gilded-rose.go:39.32,41.8 1 0
+github.com/jeromedoucet/gildedRose/gilded-rose.go:38.30,39.32 1 1
+github.com/jeromedoucet/gildedRose/gilded-rose.go:39.32,41.8 1 1
 github.com/jeromedoucet/gildedRose/gilded-rose.go:43.29,44.32 1 0
 github.com/jeromedoucet/gildedRose/gilded-rose.go:44.32,46.8 1 0
 github.com/jeromedoucet/gildedRose/gilded-rose.go:52.52,54.4 1 1
