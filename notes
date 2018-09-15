@@ -12,5 +12,6 @@ Phase n 1 => decouvrir les fonctionnalites du programme et augmenter la couvertu
 etc... jusqu'a couverture satisfaisante.
 
 Phase n 2 => Composing methods && Simplifying Conditional Expressions
-
+1 : extraction de la fonction sellIn
+2 : replace all condition on sulfuras by a clause guard
 
