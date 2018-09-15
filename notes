@@ -7,3 +7,4 @@ Phase n 1 => decouvrir les fonctionnalites du programme et augmenter la couvertu
 4 : implementation du premier test verifiant ce golden master
 5 : modification de la fonction GildedRose pour qu'elle prenne une liste d'objet en parametre
 6 : on ajoute un test avec d'autres parametres basee sur ce qui manque en couverture de test
+7 : on ajoute encore un test avec d'autres parametres basee sur ce qui manque en couverture de test
