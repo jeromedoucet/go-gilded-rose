@@ -49,9 +49,7 @@ func GildedRose(items []Item) []Item {
 			}
 		}
 
-		if items[i].name != "Sulfuras, Hand of Ragnaros" {
-			items[i].sellIn = items[i].sellIn - 1
-		}
+		items[i] = increaseSellin(items[i])
 
 		if items[i].sellIn < 0 {
 			if items[i].name != "Aged Brie" {
@@ -72,4 +70,11 @@ func GildedRose(items []Item) []Item {
 		}
 	}
 	return items
+}
+
+func increaseSellin(item Item) Item {
+	if item.name != "Sulfuras, Hand of Ragnaros" {
+		item.sellIn = item.sellIn - 1
+	}
+	return item
 }

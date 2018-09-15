@@ -11,4 +11,6 @@ Phase n 1 => decouvrir les fonctionnalites du programme et augmenter la couvertu
 8 : on ajoute encore un test avec d'autres parametres basee sur ce qui manque en couverture de test
 etc... jusqu'a couverture satisfaisante.
 
+Phase n 2 => Composing methods && Simplifying Conditional Expressions
+
 
