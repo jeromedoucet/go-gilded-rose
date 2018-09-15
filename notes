@@ -8,3 +8,7 @@ Phase n 1 => decouvrir les fonctionnalites du programme et augmenter la couvertu
 5 : modification de la fonction GildedRose pour qu'elle prenne une liste d'objet en parametre
 6 : on ajoute un test avec d'autres parametres basee sur ce qui manque en couverture de test
 7 : on ajoute encore un test avec d'autres parametres basee sur ce qui manque en couverture de test
+8 : on ajoute encore un test avec d'autres parametres basee sur ce qui manque en couverture de test
+etc... jusqu'a couverture satisfaisante.
+
+

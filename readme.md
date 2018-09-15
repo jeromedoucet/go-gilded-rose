@@ -15,7 +15,7 @@ go test
 - Run tests and coverage :
 
 ```shell
-go test -coverprofile=coverage.out
+go test -covermode=count -coverprofile=coverage.out
 
 go tool cover -html=coverage.out
 ```
