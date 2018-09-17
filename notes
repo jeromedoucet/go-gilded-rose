@@ -1,3 +1,8 @@
+// raccourcie renommage
+// 
+
+
+
 https://sourcemaking.com/refactoring/refactorings
 
 Phase n 1 => decouvrir les fonctionnalites du programme et augmenter la couverture des tests
@@ -12,6 +17,17 @@ Phase n 1 => decouvrir les fonctionnalites du programme et augmenter la couvertu
 etc... jusqu'a couverture satisfaisante.
 
 Phase n 2 => Composing methods && Simplifying Conditional Expressions
-1 : extraction de la fonction sellIn
-2 : replace all condition on sulfuras by a clause guard
+1 : extraction de la fonction sellIn # extract method
+2 : remplacement de toutes les condition concernant sufluras par une clause de garde # Replace Nested Conditional with Guard Clauses
+3 : remplacement de toutes les conditions sur la qualite 50 par une clause de garde # Replace Nested Conditional with Guard Clauses
+4 : simplification d'une condition sur le brie # Replace Nested Conditional with Guard Clauses | avoid negation conditional
+5 : simplification de la condition sur la date de peremption. Nested Conditional with Guard Clauses
+6 : renversement de la condition sur le brie et le backstage | avoid negation conditional
+7 : extraction de la fonction de modification de valeur de backstage # extract method
+8 : extraction de la fonction de modification de valeur de brie # extract method
+9 : extraction de la fonction de modification de valeur des object normaux # extract method
 
+Phase n 3 => Organizing Data && Dealing with Generalisation
+updateQuality par defaut sur Item et creation de deux autre type utilisant Item en composition (Legendary, )
+
+Phase n 4 => completion des fonctionnalite
